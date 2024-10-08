@@ -18,7 +18,7 @@ This project demonstrates how to integrate RabbitMQ with Django using the `pika`
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/django-rabbitmq-example.git
+    git clone https://github.com/madanimohadhabib/django-rabbitmq-example.git
     cd django-rabbitmq-example
     ```
 
