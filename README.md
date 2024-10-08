@@ -7,6 +7,10 @@ This project demonstrates how to integrate RabbitMQ with Django using the `pika`
 - Consume messages and process them in Django (e.g., notifications, likes).
 - Integration with Django models for data handling.
 
+## Example of Terminal Execution
+Below is an example of what the terminal will look like when you run the RabbitMQ consumer and publish a message:
+![screenshot](screenShot.png)
+
 ## Requirements
 - Python 3.x
 - Django 4.x
@@ -80,6 +84,3 @@ In your RabbitMQ instance, create a queue named `my_queue` (or change the queue 
 
 3. When a user likes a post, a message will be published to RabbitMQ, and the consumer will process the like and send a notification to the post author.
 
-## Example of Terminal Execution
-Below is an example of what the terminal will look like when you run the RabbitMQ consumer and publish a message:
-![screenshot](screenShot.png)
