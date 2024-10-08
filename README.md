@@ -75,8 +75,11 @@ In your RabbitMQ instance, create a queue named `my_queue` (or change the queue 
 2. Run the RabbitMQ consumer to listen for messages:
 
     ```bash
-    python posts/consumer.py
+    python consumer.py
     ```
 
 3. When a user likes a post, a message will be published to RabbitMQ, and the consumer will process the like and send a notification to the post author.
 
+## Example of Terminal Execution
+Below is an example of what the terminal will look like when you run the RabbitMQ consumer and publish a message:
+![plot](screenShot.png)
