@@ -12,7 +12,7 @@ def publish_message(message):
     channel.queue_declare(queue='my_queue')
     message = {
         "data" : 1,
-        "fruits" : ["apple", "banana"]
+        "Tech" : ["Django", "RabbitMQ"]
     }
     channel.basic_publish(exchange='',
                           routing_key='my_queue',
