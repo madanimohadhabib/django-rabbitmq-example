@@ -82,4 +82,4 @@ In your RabbitMQ instance, create a queue named `my_queue` (or change the queue 
 
 ## Example of Terminal Execution
 Below is an example of what the terminal will look like when you run the RabbitMQ consumer and publish a message:
-![plot](screenShot.png)
+![screenshot](screenShot.png)
